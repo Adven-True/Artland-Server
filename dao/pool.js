@@ -5,10 +5,10 @@ var mysql = require("mysql");//use mysql component
 var pool = mysql.createPool({
   connectionLimit: 10,
   multipleStatements: true,
-  host: '127.0.0.1',//host IP
-  user: 'root',//username
-  password: 'Mysql666123',//password
-  database: 'artgoods'//name of the database
+  host: '',//host IP
+  user: '',//username
+  password: '',//password
+  database: ''//name of the database
 });
 
 
